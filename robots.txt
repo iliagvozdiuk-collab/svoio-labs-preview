@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://labs.svoioai.ru
+Sitemap: https://labs.svoioai.ru/sitemap.xml
