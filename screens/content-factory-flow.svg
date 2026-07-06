@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Контент-Завод: два конвейера контента — новостной и видео из брифа">
+  <!-- background: light mint -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F2F8F4"/>
+
+  <!-- ============ ROW 1 TITLE PLATE ============ -->
+  <rect x="80" y="60" width="290" height="36" rx="6" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+  <text x="98" y="86" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="20" fill="#111">Новостной конвейер</text>
+
+  <!-- ============ ROW 1 CARDS (y=108, h=170) ============ -->
+
+  <!-- Card 1: Источники -->
+  <rect x="88" y="100" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="80" y="108" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(199,124)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <circle cx="26" cy="50" r="4.5" fill="#111"/>
+    <path d="M26 39 A 11 11 0 0 1 37 50" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <path d="M26 29 A 21 21 0 0 1 47 50" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="235" y="220" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">Источники</text>
+  <text x="235" y="246" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">Инфоповоды</text>
+  <text x="235" y="266" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">по вашей теме</text>
+
+  <!-- Card 2: AI-посты -->
+  <rect x="453" y="100" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="445" y="108" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(564,124)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <rect x="16" y="20" width="26" height="32" rx="2" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+    <line x1="22" y1="30" x2="36" y2="30" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="37" x2="36" y2="37" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <line x1="22" y1="44" x2="32" y2="44" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <path d="M54 8 L57 14 L63 17 L57 20 L54 26 L51 20 L45 17 L51 14 Z" fill="#111"/>
+  </g>
+  <text x="600" y="220" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">AI-посты</text>
+  <text x="600" y="246" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">Тексты и креативы</text>
+  <text x="600" y="266" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">в вашем стиле</text>
+
+  <!-- Card 3: Публикация -->
+  <rect x="818" y="100" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="810" y="108" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(929,124)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <path d="M15 35 L59 16 L50 58 L37 45 Z" fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M59 16 L37 45" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="965" y="220" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">Публикация</text>
+  <text x="965" y="246" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">TG и соцсети</text>
+  <text x="965" y="266" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">по расписанию</text>
+
+  <!-- ROW 1 arrows -->
+  <line x1="396" y1="193" x2="427" y2="193" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="427,184 427,202 443,193" fill="#111"/>
+  <line x1="761" y1="193" x2="792" y2="193" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="792,184 792,202 808,193" fill="#111"/>
+
+  <!-- ============ ROW 2 TITLE PLATE ============ -->
+  <rect x="80" y="350" width="230" height="36" rx="6" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+  <text x="98" y="376" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="20" fill="#111">Видео из брифа</text>
+
+  <!-- ============ ROW 2 CARDS (y=398, h=170) ============ -->
+
+  <!-- Card 4: Бриф -->
+  <rect x="88" y="390" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="80" y="398" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(199,414)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <rect x="18" y="20" width="32" height="34" rx="2" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+    <line x1="25" y1="14" x2="25" y2="25" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <line x1="34" y1="14" x2="34" y2="25" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <line x1="43" y1="14" x2="43" y2="25" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+    <line x1="26" y1="34" x2="44" y2="34" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <line x1="26" y1="41" x2="44" y2="41" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+    <line x1="26" y1="48" x2="38" y2="48" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="235" y="510" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">Бриф</text>
+  <text x="235" y="536" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">Тема</text>
+  <text x="235" y="556" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">и контекст</text>
+
+  <!-- Card 5: Раскадровка -->
+  <rect x="453" y="390" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="445" y="398" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(564,414)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <rect x="12" y="22" width="48" height="30" rx="2" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+    <line x1="12" y1="30" x2="60" y2="30" stroke="#111" stroke-width="3"/>
+    <line x1="12" y1="44" x2="60" y2="44" stroke="#111" stroke-width="3"/>
+    <rect x="17" y="24" width="5" height="4" fill="#111"/>
+    <rect x="26" y="24" width="5" height="4" fill="#111"/>
+    <rect x="35" y="24" width="5" height="4" fill="#111"/>
+    <rect x="44" y="24" width="5" height="4" fill="#111"/>
+    <rect x="17" y="46" width="5" height="4" fill="#111"/>
+    <rect x="26" y="46" width="5" height="4" fill="#111"/>
+    <rect x="35" y="46" width="5" height="4" fill="#111"/>
+    <rect x="44" y="46" width="5" height="4" fill="#111"/>
+    <line x1="28" y1="30" x2="28" y2="44" stroke="#111" stroke-width="3"/>
+    <line x1="44" y1="30" x2="44" y2="44" stroke="#111" stroke-width="3"/>
+  </g>
+  <text x="600" y="510" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">Раскадровка</text>
+  <text x="600" y="536" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">Превью</text>
+  <text x="600" y="556" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">до рендера</text>
+
+  <!-- Card 6: Готовое видео -->
+  <rect x="818" y="390" width="310" height="170" rx="8" fill="#111"/>
+  <rect x="810" y="398" width="310" height="170" rx="8" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+  <g transform="translate(929,414)">
+    <rect x="0" y="0" width="72" height="72" rx="8" fill="#E0A54B" stroke="#111" stroke-width="4"/>
+    <circle cx="36" cy="37" r="21" fill="#FFFFFF" stroke="#111" stroke-width="4"/>
+    <path d="M29 26 L29 48 L49 37 Z" fill="#111"/>
+  </g>
+  <text x="965" y="510" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="800" font-size="22" fill="#111">Готовое видео</text>
+  <text x="965" y="536" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">Озвучка и субтитры</text>
+  <text x="965" y="556" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#333">из коробки</text>
+
+  <!-- ROW 2 arrows -->
+  <line x1="396" y1="483" x2="427" y2="483" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="427,474 427,492 443,483" fill="#111"/>
+  <line x1="761" y1="483" x2="792" y2="483" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="792,474 792,492 808,483" fill="#111"/>
+</svg>
